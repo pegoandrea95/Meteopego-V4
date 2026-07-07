@@ -1,4 +1,4 @@
-<?php include '../includes/header.php'; ?>
+<?php include 'includes/header.php';?>
 
 <main>
 
@@ -68,4 +68,4 @@ Dashboard Meteo in tempo reale
 
 </main>
 
-<?php include '../includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>
