@@ -1,68 +1,49 @@
-<?php include '../includes/header.php'; ?>
+<?php
+
+phpinfo();
+exit;
+
+include '../includes/header.php';
+?>
 
 <main>
 
 <section class="hero">
-
-<h1>Benvenuto su Meteopego Stazione</h1>
-
-<p>
-
-Dashboard Meteo in tempo reale
-
-</p>
-
+    <h1>Benvenuto su Meteopego Stazione</h1>
+    <p>Dashboard Meteo in tempo reale</p>
 </section>
 
 <section class="dashboard">
 
-<div class="card">
+    <div class="card">
+        <h2>🌡 Temperatura</h2>
+        <p id="temp">--.- °C</p>
+    </div>
 
-<h2>🌡 Temperatura</h2>
+    <div class="card">
+        <h2>💧 Umidità</h2>
+        <p id="hum">-- %</p>
+    </div>
 
-<p id="temp">--.- °C</p>
+    <div class="card">
+        <h2>🌬 Vento</h2>
+        <p id="wind">-- km/h</p>
+    </div>
 
-</div>
+    <div class="card">
+        <h2>🌧 Pioggia</h2>
+        <p id="rain">-- mm</p>
+    </div>
 
-<div class="card">
+    <div class="card">
+        <h2>📈 Pressione</h2>
+        <p id="pressure">---- hPa</p>
+    </div>
 
-<h2>💧 Umidità</h2>
-
-<p id="hum">-- %</p>
-
-</div>
-
-<div class="card">
-
-<h2>🌬 Vento</h2>
-
-<p id="wind">-- km/h</p>
-
-</div>
-
-<div class="card">
-
-<h2>🌧 Pioggia</h2>
-
-<p id="rain">-- mm</p>
-
-</div>
-
-<div class="card">
-
-<h2>📈 Pressione</h2>
-
-<p id="pressure">---- hPa</p>
-
-</div>
-
-<div class="card">
-
-<h2>☀️ UV</h2>
-
-<p id="uv">--</p>
-
-</div>
+    <div class="card">
+        <h2>☀️ UV</h2>
+        <p id="uv">--</p>
+    </div>
 
 </section>
 
