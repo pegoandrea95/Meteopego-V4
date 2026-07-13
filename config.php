@@ -27,7 +27,7 @@ return [
     ],
 
     'meteobridge' => [
-        'host' => '192.168.1.235',
+        'host' => '192.168.1.234',
         'port' => 80,
         'api' => '/livedata.htm',
     ],
