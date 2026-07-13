@@ -43,4 +43,6 @@
 
 </main>
 
+<script src="/assets/js/app.js"></script>
+
 <?php include '../includes/footer.php'; ?>
